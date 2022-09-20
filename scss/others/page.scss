@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../../images/backgroundLp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  height: auto;
+}
+
+.container1 {
+  max-width: 450px;
+  height: auto;
+  background-color: $bg-form;
+  color: white;
+}
+
+.logo__imagem {
+  width: 180px;
+}
+
+.paragraph {
+  margin: 8px 0;
+}
+
+.btnSubmit {
+  color: $button-color;
+
+  &:hover {
+    background-color: $button-color;
+    color: white;
+  }
+}
+
+.footer {
+  color: white;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
