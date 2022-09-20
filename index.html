@@ -27,12 +27,14 @@
     <form action="">
 
       <div class="name">
-        <p>1 - Qual o seu nome?</p>
+        <p class="paragraph">1 - Qual o seu nome?</p>
+
         <div class="input-group mb-3">
           <label for="first-name" class="input-group-text" id="basic-addon1">Primeiro nome:</label>
           <input type="text" class="form-control" name="first-name" id="first-name" placeholder="Digite aqui"
             aria-label="Username" aria-describedby="basic-addon1" />
         </div>
+
         <div class="input-group">
           <label for="second-name" class="input-group-text" id="basic-addon1">Segundo nome:</label>
           <input type="text" class="form-control" name="second-name" id="second-name" placeholder="Digite aqui"
@@ -41,18 +43,52 @@
       </div>
 
       <div class="genre">
-        <p>2 - Qual o seu gênero?</p>
+        <p class="paragraph">2 - Qual o seu gênero?</p>
+
         <div class="form-check">
           <input type="radio" id="flexRadioDefault1" name="flexRadioDefault" class="form-check-input">
           <label for="flexRadioDefault1" class="form-check-label">Homem</label>
         </div>
+
         <div class="form-check">
           <input type="radio" id="flexRadioDefault2" name="flexRadioDefault" class="form-check-input">
           <label for="flexRadioDefault2" class="form-check-label">Mulher</label>
         </div>
+
         <div class="form-check">
           <input type="radio" id="flexRadioDefault3" name="flexRadioDefault" class="form-check-input">
           <label for="flexRadioDefault3" class="form-check-label">Prefiro não informar</label>
+        </div>
+      </div>
+
+      <div class="trainings">
+        <p class="paragraph">3 - Marque os treinamentos que você fez:</p>
+
+        <div class="form-check form-switch">
+          <input type="checkbox" role="switch" name="Treinamento-básico-de-astronauta" id="flexSwitchCheckDefault"
+            class="form-check-input">
+          <label for="flexSwitchCheckDefault" class="form-check-label">Treinamento básico de astronauta</label>
+        </div>
+
+        <div class="form-check form-switch">
+          <input type="checkbox" role="switch" name="Treinamento-físico-básico" id="flexSwitchCheckDefault1"
+            class="form-check-input">
+          <label for="flexSwitchCheckDefault1" class="form-check-label">Treinamento físico básico
+          </label>
+        </div>
+
+        <div class="form-check form-switch">
+          <input type="checkbox" role="switch" name="Treinamento-avançado-de-astronauta" id="flexSwitchCheckDefault2"
+            class="form-check-input">
+          <label for="flexSwitchCheckDefault2" class="form-check-label">Treinamento avançado de astronauta
+          </label>
+        </div>
+
+        <div class="form-check form-switch">
+          <input type="checkbox" role="switch" name="Treinamento-físico-intenso" id="flexSwitchCheckDefault3"
+            class="form-check-input">
+          <label for="flexSwitchCheckDefault3" class="form-check-label">Treinamento físico intenso
+          </label>
         </div>
       </div>
 
